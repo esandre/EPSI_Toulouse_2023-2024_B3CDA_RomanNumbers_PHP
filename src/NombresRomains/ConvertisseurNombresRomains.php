@@ -10,7 +10,7 @@ class ConvertisseurNombresRomains
             1 => "I",
             2 => "II",
             3 => "III",
-            default => "IIII"
+            default => "IV"
         };
     }
 }
