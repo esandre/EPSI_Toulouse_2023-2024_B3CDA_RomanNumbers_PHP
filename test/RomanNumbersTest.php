@@ -21,4 +21,15 @@ final class RomanNumbersTest extends TestCase
     public static function providerTestUnité() {
         return [[1], [2], [3]];
     }
+
+    public function testQuatre(){
+        // ETANT DONNE le chiffre 4
+        $chiffreArabe = 4;
+
+        // QUAND on le convertit en nombres romains
+        $nombreRomain = ConvertisseurNombresRomains::Convertir($chiffreArabe);
+
+        // ALORS on obtient "IV"
+        $this->assertEquals("IV", $nombreRomain);
+    }
 }

@@ -9,7 +9,8 @@ class ConvertisseurNombresRomains
         return match ($chiffreArabe) {
             1 => "I",
             2 => "II",
-            default => "III",
+            3 => "III",
+            default => "IV"
         };
     }
 }
