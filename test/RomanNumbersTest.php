@@ -19,6 +19,6 @@ final class RomanNumbersTest extends TestCase
     }
 
     public static function providerTestUnité() {
-        return [[1], [2]];
+        return [[1], [2], [3]];
     }
 }
